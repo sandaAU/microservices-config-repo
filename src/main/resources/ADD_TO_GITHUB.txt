@@ -1,0 +1,106 @@
+
+ADD PROJECT 
+F:\17.7.21-13.55\PROJECTS\ES6.6.22-23.16\SpringBoot-SpringBootMicroservices-SpringCloudConfigServer_javaguides.net_2022_10_RameshFadatare_8.7.23-17.45\microservices-config-repo
+TO GIT HUB
+
+sandaau@DESKTOP-77LBPFE MINGW64 /f/17.7.21-13.55/PROJECTS/ES6.6.22-23.16/SpringBoot-SpringBootMicroservices-SpringCloudConfigServer_javaguides.net_2022_10_RameshFadatare_8.7.23-17.45/microservices-config-repo
+$ F:\17.7.21-13.55\PROJECTS\ES6.6.22-23.16\SpringBoot-SpringBootMicroservices-SpringCloudConfigServer_javaguides.net_2022_10_RameshFadatare_8.7.23-17.45\microservices-config-repo
+bash: F:17.7.21-13.55PROJECTSES6.6.22-23.16SpringBoot-SpringBootMicroservices-SpringCloudConfigServer_javaguides.net_2022_10_RameshFadatare_8.7.23-17.45microservices-config-repo: command not found
+
+sandaau@DESKTOP-77LBPFE MINGW64 /f/17.7.21-13.55/PROJECTS/ES6.6.22-23.16/SpringBoot-SpringBootMicroservices-SpringCloudConfigServer_javaguides.net_2022_10_RameshFadatare_8.7.23-17.45/microservices-config-repo
+$ git init
+Initialized empty Git repository in F:/17.7.21-13.55/PROJECTS/ES6.6.22-23.16/SpringBoot-SpringBootMicroservices-SpringCloudConfigServer_javaguides.net_2022_10_RameshFadatare_8.7.23-17.45/microservices-config-repo/.git/
+
+sandaau@DESKTOP-77LBPFE MINGW64 /f/17.7.21-13.55/PROJECTS/ES6.6.22-23.16/SpringBoot-SpringBootMicroservices-SpringCloudConfigServer_javaguides.net_2022_10_RameshFadatare_8.7.23-17.45/microservices-config-repo (master)
+$ git commit -m "ADD PROPERTY FILES"
+On branch master
+
+Initial commit
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .gitignore
+        README.md
+        pom.xml
+        src/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+sandaau@DESKTOP-77LBPFE MINGW64 /f/17.7.21-13.55/PROJECTS/ES6.6.22-23.16/SpringBoot-SpringBootMicroservices-SpringCloudConfigServer_javaguides.net_2022_10_RameshFadatare_8.7.23-17.45/microservices-config-repo (master)
+$ git add .
+warning: in the working copy of 'pom.xml', LF will be replaced by CRLF the next time Git touches it
+
+sandaau@DESKTOP-77LBPFE MINGW64 /f/17.7.21-13.55/PROJECTS/ES6.6.22-23.16/SpringBoot-SpringBootMicroservices-SpringCloudConfigServer_javaguides.net_2022_10_RameshFadatare_8.7.23-17.45/microservices-config-repo (master)
+$ git commit -m "ADD PROPERTY FILES"
+[master (root-commit) c89c93c] ADD PROPERTY FILES
+ 9 files changed, 228 insertions(+)
+ create mode 100644 .gitignore
+ create mode 100644 README.md
+ create mode 100644 pom.xml
+ create mode 100644 src/main/java/org/microservices/config/repo/Main.java
+ create mode 100644 src/main/resources/INFO.txt
+ create mode 100644 src/main/resources/department-service.properties
+ create mode 100644 src/main/resources/order-service.yml
+ create mode 100644 src/main/resources/organization-service.properties
+ create mode 100644 src/main/resources/user-service.properties
+
+sandaau@DESKTOP-77LBPFE MINGW64 /f/17.7.21-13.55/PROJECTS/ES6.6.22-23.16/SpringBoot-SpringBootMicroservices-SpringCloudConfigServer_javaguides.net_2022_10_RameshFadatare_8.7.23-17.45/microservices-config-repo (master)
+$ git branch -M main
+
+sandaau@DESKTOP-77LBPFE MINGW64 /f/17.7.21-13.55/PROJECTS/ES6.6.22-23.16/SpringBoot-SpringBootMicroservices-SpringCloudConfigServer_javaguides.net_2022_10_RameshFadatare_8.7.23-17.45/microservices-config-repo (main)
+$ git remote add origin https://github.com/sandaAU/microservices-config-repo.git
+
+sandaau@DESKTOP-77LBPFE MINGW64 /f/17.7.21-13.55/PROJECTS/ES6.6.22-23.16/SpringBoot-SpringBootMicroservices-SpringCloudConfigServer_javaguides.net_2022_10_RameshFadatare_8.7.23-17.45/microservices-config-repo (main)
+$ git push -u origin main
+Enumerating objects: 19, done.
+Counting objects: 100% (19/19), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (13/13), done.
+Writing objects: 100% (19/19), 3.05 KiB | 1.52 MiB/s, done.
+Total 19 (delta 4), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (4/4), done.
+To https://github.com/sandaAU/microservices-config-repo.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+
+sandaau@DESKTOP-77LBPFE MINGW64 /f/17.7.21-13.55/PROJECTS/ES6.6.22-23.16/SpringBoot-SpringBootMicroservices-SpringCloudConfigServer_javaguides.net_2022_10_RameshFadatare_8.7.23-17.45/microservices-config-repo (main)
+$
+
+
+
+
+
+microservices-config-repo Public
+================================
+https://github.com/sandaAU/microservices-config-repo
+
+Pin
+ Unwatch 1 
+
+Fork 0Cannot fork because you own this repository and are not a member of any organizations.
+
+ Star 0
+Set up GitHub Copilot
+Use GitHub's AI pair programmer to autocomplete suggestions as you code.
+Invite collaborators
+Find people using their GitHub username or email address.
+Quick setup — if you’ve done this kind of thing before
+ Set up in Desktop
+or
+HTTPSSSH
+Get started by creating a new file or uploading an existing file. We recommend every repository include a README, LICENSE, and .gitignore.
+…or create a new repository on the command line
+echo "# microservices-config-repo" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/sandaAU/microservices-config-repo.git
+git push -u origin main
+…or push an existing repository from the command line
+git remote add origin https://github.com/sandaAU/microservices-config-repo.git
+git branch -M main
+git push -u origin main
+…or import code from another repository
+You can initialize this repository with code from a Subversion, Mercurial, or TFS project.
+Import code

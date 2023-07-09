@@ -1,4 +1,8 @@
 
+THIS PROJECT 
+F:\17.7.21-13.55\PROJECTS\ES6.6.22-23.16\SpringBoot-SpringBootMicroservices-SpringCloudConfigServer_javaguides.net_2022_10_RameshFadatare_8.7.23-17.45\microservices-config-repo
+IS COPIED FROM 
+https://github.com/RameshMF/microservices-config-repo.git
 
 
 # RameshMF / microservices-config-repo
